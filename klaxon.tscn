@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://s3apgqjsjs4y"]
+
+[ext_resource type="Script" path="res://klaxon.gd" id="1_mbgrq"]
+[ext_resource type="AudioStream" uid="uid://ecwqh7u7t8c5" path="res://assets/sounds/Sci_Fi_Alarm_Loop_04.mp3" id="2_r73sh"]
+
+[node name="Klaxon" type="Node2D"]
+script = ExtResource("1_mbgrq")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_r73sh")

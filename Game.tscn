@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://du38uwpfj3vgb"]
+
+[ext_resource type="PackedScene" uid="uid://dej4r6nv7vrlr" path="res://button.tscn" id="1_putsl"]
+[ext_resource type="PackedScene" uid="uid://s3apgqjsjs4y" path="res://klaxon.tscn" id="2_60vnh"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Control" parent="." instance=ExtResource("1_putsl")]
+
+[node name="Klaxon" parent="." instance=ExtResource("2_60vnh")]
